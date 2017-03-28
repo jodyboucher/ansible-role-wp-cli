@@ -1,6 +1,6 @@
 # Ansible role: wp-cli
 
-An [Ansible](https://www.ansible.com/) role that installs and WP-CLI.
+An [Ansible](https://www.ansible.com/) role that installs WP-CLI (a set of command-line tools for managing WordPress installations).
 
 ## Requirements
 
