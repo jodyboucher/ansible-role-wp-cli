@@ -9,7 +9,8 @@ None.
 ## Role Variables
 
 The available variables of this role are listed here along with default values:
-```
+
+```yml
 # The WP-CLI version to install
 wp_cli_version: 1.1.0
 
@@ -26,7 +27,7 @@ None.
 
 ## Example Playbook
 
-```
+```yml
 ---
 - hosts: wordpress-servers
   become: true
@@ -38,7 +39,7 @@ None.
 
 Inside `vars/main.yml`:
 
-```
+```yml
 ---
 wp_cli_version: 1.1.0
 ```
@@ -46,13 +47,14 @@ wp_cli_version: 1.1.0
 ## Installation
 
 On the command-line:
-```
-$ ansible-galaxy install git+https://github.com/jodyboucher/ansible-role-wp-cli.git
+
+```bash
+ansible-galaxy install git+https://github.com/jodyboucher/ansible-role-wp-cli.git
 ```
 
 or in a role file (requirements.yml):
 
-```
+```yml
 - name: wp-cli
   src: https://github.com/jodyboucher/ansible-role-wp-cli
   version: master
